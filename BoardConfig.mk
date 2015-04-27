@@ -18,3 +18,5 @@
 -include device/google/sprout-common/BoardConfigCommon.mk
 
 TARGET_OTA_ASSERT_DEVICE := sprout,sprout4
+
+TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/root/fstab.sprout
