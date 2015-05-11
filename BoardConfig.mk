@@ -19,4 +19,4 @@
 
 TARGET_OTA_ASSERT_DEVICE := sprout,sprout4
 
-TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/root/fstab.sprout
+TARGET_RECOVERY_FSTAB := device/google/sprout4/rootdir/root/fstab.sprout
