@@ -283,6 +283,9 @@
 
     <bool name="config_user_notification_of_restrictied_mobile_access">false</bool>
 
+    <!-- enable doze powersaving mode -->
+    <bool name="config_enableAutoPowerModes">true</bool>
+
     <!-- Performance profiles -->
 	<!--
     <string name="config_perf_profile_prop">sys.perf.profile</string>
