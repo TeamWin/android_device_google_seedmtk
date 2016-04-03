@@ -1,4 +1,4 @@
-$(call inherit-product, device/google/sprout/sprout32.mk)
+$(call inherit-product, device/google/sprout32/sprout32.mk)
 
 # Common CM stuff
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
