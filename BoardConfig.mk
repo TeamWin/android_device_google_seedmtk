@@ -15,7 +15,7 @@
 #
 
 # inherit from common sprout repo
--include device/google/sprout-common/BoardConfigCommon.mk
+-include device/mediatek/sprout-common/BoardConfigCommon.mk
 
 TARGET_OTA_ASSERT_DEVICE := sprout,sprout32
 
