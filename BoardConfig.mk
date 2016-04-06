@@ -17,7 +17,7 @@
 # inherit from common sprout repo
 -include device/mediatek/sprout-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := sprout,seedmtk
+TARGET_OTA_ASSERT_DEVICE := sprout,sprout32
 
-TARGET_RECOVERY_FSTAB := device/google/seedmtk/rootdir/root/fstab.sprout
-TARGET_RECOVERY_PREBUILT_KERNEL := device/google/seedmtk/rootdir/root/kernel
+TARGET_RECOVERY_FSTAB := device/google/sprout32/rootdir/root/fstab.sprout
+TARGET_RECOVERY_PREBUILT_KERNEL := device/google/sprout32/rootdir/root/kernel
