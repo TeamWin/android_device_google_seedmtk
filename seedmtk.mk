@@ -23,4 +23,4 @@ $(call inherit-product, device/mediatek/sprout-common/sprout.mk)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/root/init.sprout.rc:root/init.sprout.rc \
     $(LOCAL_PATH)/rootdir/root/fstab.sprout:root/fstab.sprout	\
-#    $(LOCAL_PATH)/rootdir/root/kernel:kernel
+    $(LOCAL_PATH)/rootdir/root/kernel:kernel
