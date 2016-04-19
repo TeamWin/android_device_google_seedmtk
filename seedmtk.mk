@@ -18,9 +18,9 @@
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # common sprout
-$(call inherit-product-if-exists, device/mediatek/sprout-common/sprout.mk)
+#$(call inherit-product-if-exists, device/mediatek/sprout-common/sprout.mk)
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/root/init.sprout.rc:root/init.sprout.rc \
-    $(LOCAL_PATH)/rootdir/root/fstab.sprout:root/fstab.sprout	\
+    $(LOCAL_PATH)/rootdir/root/fstab.sprout:root/fstab.sprout \
     $(LOCAL_PATH)/rootdir/root/kernel:kernel
