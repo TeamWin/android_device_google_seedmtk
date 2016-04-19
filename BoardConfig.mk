@@ -50,10 +50,10 @@ BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_HAS_LARGE_FILESYSTEM := true
 
-TARGET_OTA_ASSERT_DEVICE := sprout,seedmtk
+TARGET_OTA_ASSERT_DEVICE := sprout,Pixelv1_sprout
 
-TARGET_RECOVERY_FSTAB := device/google/seedmtk/rootdir/recovery/twrp.fstab
-TARGET_RECOVERY_PREBUILT_KERNEL := device/google/seedmtk/rootdir/root/kernel
+TARGET_RECOVERY_FSTAB := device/google/Pixelv1_sprout/rootdir/recovery/twrp.fstab
+TARGET_RECOVERY_PREBUILT_KERNEL := device/google/Pixelv1_sprout/rootdir/root/kernel
 
 #TWRP stuff
 RECOVERY_VARIANT := twrp
