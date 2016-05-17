@@ -74,6 +74,7 @@ TW_INCLUDE_LOGCAT := true
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TW_EXTRA_LANGUAGES := false
-TW_NO_CPU_TEMP := true
+#TW_NO_CPU_TEMP := true
+TW_CUSTOM_CPU_TEMP_PATH := /proc/mtktscpu/mtktscpu_read_temperature
 TW_THEME := portrait_hdpi
 
