@@ -3,7 +3,8 @@
 /data		   ext4		/dev/block/platform/mtk-msdc.0/by-name/userdata
 /cache		   ext4		/dev/block/platform/mtk-msdc.0/by-name/cache
 /recovery	   ext4 	/dev/block/platform/mtk-msdc.0/by-name/recovery
-/oem		   ext4 	/dev/block/platform/mtk-msdc.0/by-name/oem
-/logo		   ext4 	/dev/block/platform/mtk-msdc.0/by-name/logo
-/frp		   ext4 	/dev/block/platform/mtk-msdc.0/by-name/frp
+/oem		   ext4 	/dev/block/platform/mtk-msdc.0/by-name/oem		flags=display="OEM";
+/logo		   ext4 	/dev/block/platform/mtk-msdc.0/by-name/logo		flags=display="LOGO";
+/frp		   ext4 	/dev/block/platform/mtk-msdc.0/by-name/frp		flags=display="FRP Counter";wipeingui
+/nvram		   ext4		/dev/block/platform/mtk-msdc.0/by-name/nvram.    	flags=display="IMEI";
 /external_sd   	   vfat		/dev/block/mmcblk1p1                               /dev/block/mmcblk1   flags=display="External SDCard";storage;wipeingui;removable
