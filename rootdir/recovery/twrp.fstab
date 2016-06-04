@@ -1,9 +1,10 @@
-/boot		   emmc		/dev/block/platform/mtk-msdc.0/by-name/boot
-/system		   ext4		/dev/block/platform/mtk-msdc.0/by-name/system
-/data		   ext4		/dev/block/platform/mtk-msdc.0/by-name/userdata
-/cache		   ext4		/dev/block/platform/mtk-msdc.0/by-name/cache
-/recovery	   ext4 	/dev/block/platform/mtk-msdc.0/by-name/recovery
-/oem		   ext4 	/dev/block/platform/mtk-msdc.0/by-name/oem
-/logo		   ext4 	/dev/block/platform/mtk-msdc.0/by-name/logo
-/frp		   ext4 	/dev/block/platform/mtk-msdc.0/by-name/frp
-/external_sd   	   vfat		/dev/block/mmcblk1p1                               /dev/block/mmcblk1   flags=display="External SDCard";storage;wipeingui;removable
+/boot		   emmc 	/dev/block/platform/mtk-msdc.0/by-name/boot
+/system		   ext4 	/dev/block/platform/mtk-msdc.0/by-name/system
+/data		   ext4 	/dev/block/platform/mtk-msdc.0/by-name/userdata
+/cache		   ext4 	/dev/block/platform/mtk-msdc.0/by-name/cache
+/recovery	   ext4 	/dev/block/platform/mtk-msdc.0/by-name/recovery		flags=display="Recovery";backup=1
+/oem		   ext4 	/dev/block/platform/mtk-msdc.0/by-name/oem		flags=display="OEM";backup=1
+/logo		   ext4 	/dev/block/platform/mtk-msdc.0/by-name/logo		flags=display="LOGO";backup=1
+/frp		   ext4 	/dev/block/platform/mtk-msdc.0/by-name/frp		flags=display="FRP Counter";wipeingui
+/nvram		   ext4 	/dev/block/platform/mtk-msdc.0/by-name/nvram		flags=display="IMEI";backup=1
+/external_sd	   vfat 	/dev/block/mmcblk1p1                               /dev/block/mmcblk1   flags=display="External SDCard";storage;wipeingui;removable
