@@ -75,6 +75,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TW_EXTRA_LANGUAGES := false
 #TW_NO_CPU_TEMP := true
-TW_CUSTOM_CPU_TEMP_PATH := /proc/mtktscpu/mtktscpu_read_temperature
+TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
 TW_THEME := portrait_hdpi
 
